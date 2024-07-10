@@ -1,6 +1,5 @@
+import { Dock, DockIcon } from "@/app/components/magicui/dock";
 import React from "react";
-
-import { Dock, DockIcon } from "@/components/magicui/dock";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -8,7 +7,7 @@ export function DockDemo() {
   return (
     <div className="relative">
     <div className="fixed bottom-5 left-1/2 transform -translate-x-1/2 z-50">
-      <Dock direction="middle">
+      <Dock>
         <DockIcon>
           <Icons.gitHub className="size-6" />
         </DockIcon>
