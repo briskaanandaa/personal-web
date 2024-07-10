@@ -4,9 +4,6 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
-      fontFamily: {
-        outfit: ['"Outfit"', 'sans-serif'],
-      },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
       },
