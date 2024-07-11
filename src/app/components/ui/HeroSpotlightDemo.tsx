@@ -10,9 +10,9 @@ export function SpotlightPreview() {
         className="top-40 left-0 md:left-60 md:-top-20"
         fill="white"
       />
-      <div className="p-5 md:p-10 max-w-7xl relative z-10 items-center flex flex-col md:flex-row justify-center w-full md:pt-0">
+      <div className="h-full md:p-10 max-w-7xl relative z-10 items-center flex flex-col md:flex-row justify-center w-full">
       
-      <div className="flex flex-col">
+      <div className="flex flex-col p-10">
       <GradualSpacingDemo/>
       <BlurInDemo/>
       </div>

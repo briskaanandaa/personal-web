@@ -3,11 +3,11 @@
 import { useTheme } from "next-themes";
 import { useEffect, useMemo, useState } from "react";
 import {
-    Cloud,
-    fetchSimpleIcons,
-    ICloud,
-    renderSimpleIcon,
-    SimpleIcon,
+  Cloud,
+  fetchSimpleIcons,
+  ICloud,
+  renderSimpleIcon,
+  SimpleIcon,
 } from "react-icon-cloud";
 
 export const cloudProps: Omit<ICloud, "children"> = {
@@ -17,7 +17,7 @@ export const cloudProps: Omit<ICloud, "children"> = {
       justifyContent: "center",
       alignItems: "center",
       width: "100%",
-      paddingTop: 40,
+      paddingTop: 0,
     },
   },
   options: {
