@@ -4,7 +4,7 @@ const BlurInDemo = () => {
   return (
     <BlurIn
       word="A Web Developer who loves crafted beautiful web experiences and help others grow in web development."
-      className="font-poppins text-sm md:text-sm font-medium text-slate-50 text-start"
+      className="font-poppins text-base md:text-xl text-neutral-200 text-start"
     />
   );
 };
