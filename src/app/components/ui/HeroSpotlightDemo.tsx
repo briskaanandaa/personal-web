@@ -12,7 +12,7 @@ export function SpotlightPreview() {
       />
       <div className="h-full md:p-10 max-w-7xl relative z-10 items-center flex flex-col md:flex-row  w-full">
       
-      <div className="flex flex-col py-10 px-5">
+      <div className="flex flex-col pt-20 pb-5 md:py-10 px-5">
       <GradualSpacingDemo/>
       <BlurInDemo/>
       </div>
