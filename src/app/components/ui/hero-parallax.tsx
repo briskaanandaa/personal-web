@@ -1,10 +1,10 @@
 "use client";
 import {
-    motion,
-    MotionValue,
-    useScroll,
-    useSpring,
-    useTransform,
+  motion,
+  MotionValue,
+  useScroll,
+  useSpring,
+  useTransform,
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
