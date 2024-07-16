@@ -5,7 +5,7 @@ import { IconCloudDemo } from "./IconCloudDemo";
 
 export function SpotlightPreview() {
   return (
-    <div className="h-[100vh] w-full flex items-start justify-start bg-slate-900 antialiased bg-grid-white/[0.02] relative overflow-hidden">
+    <div className="h-[100vh] w-full flex items-start justify-start bg-slate-50 antialiased bg-grid-slate-50/[0.02] relative overflow-hidden">
       <Spotlight
         className="top-40 left-0 md:left-60 md:-top-20"
         fill="white"

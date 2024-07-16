@@ -30,17 +30,15 @@ export const cloudProps: Omit<ICloud, "children"> = {
     initial: [0.1, -0.1],
     clickToFront: 500,
     tooltipDelay: 0,
-
     maxSpeed: 0.04,
     minSpeed: 0.02,
-    // dragControl: false,
   },
 };
 
 export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
-  const bgHex = theme === "light" ? "#f3f2ef" : "#080510";
-  const fallbackHex = theme === "light" ? "#6e6e73" : "#ffffff";
-  const minContrastRatio = theme === "dark" ? 2 : 1.2;
+  const bgHex = "#000000"; // Set background color to black
+  const fallbackHex = "#000000"; // Set fallback color to black
+  const minContrastRatio = 1.2; // Adjust contrast ratio as needed
 
   return renderSimpleIcon({
     icon,
@@ -75,7 +73,7 @@ export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
     if (!data) return null;
 
     return Object.values(data.simpleIcons).map((icon) =>
-      renderCustomIcon(icon, theme || "dark"),
+      renderCustomIcon(icon, theme || "light"),
     );
   }, [data, theme]);
 
