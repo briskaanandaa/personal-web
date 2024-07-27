@@ -1,15 +1,10 @@
-import HeroSection from "./components/Page/HeroSection";
-
+import ParticlesDemo from "@/components/demo/ParticlesDemo";
 
 export default function Home() {
   return (
-   <div className="h-fit">
+   <div className="h-[100vh] w-full bg-red">
   
-  <HeroSection/>
-  {/* <HeroParallaxDemo/>
-  <DockDemo/>
-  <FeaturesSectionDemo/> */}
+  <ParticlesDemo/>
   </div>
-
   );
 }
